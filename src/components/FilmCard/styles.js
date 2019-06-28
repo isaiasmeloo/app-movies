@@ -10,6 +10,14 @@ const styles = StyleSheet.create({
   title: {
     color: white, fontWeight: 'bold', fontSize: 16, lineHeight: 28
   },
+  containerImage: {
+    backgroundColor: '#404040',
+    width: '30%'
+  },
+  image: {
+    flex: 1,
+    height: 170
+  },
   containerIcon: {
     flexDirection: 'row',
     alignItems: 'center'

@@ -9,9 +9,9 @@ import styles from './styles';
 
 const FilmCard = ({ image, title, release_date, average, overview, popularity }) => (
   <View style={styles.container}>
-    <View style={{ backgroundColor: '#404040', width: '30%' }}>
+    <View style={styles.containerImage}>
       <Image source={{ uri: image }}
-        style={{ flex: 1, height: 170 }}
+        style={styles.image}
       />
     </View>
 
